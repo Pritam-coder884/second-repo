@@ -1,0 +1,83 @@
+
+*{
+    margin:20px;
+    padding:2px;
+}
+header{
+    background-color: indianred;
+}
+header .right{
+    position:absolute;
+    right:34px;
+    top:72px;
+    display: inline-block;
+}
+header .prt{
+    color:lavenderblush;
+    font-size: 50px;
+}
+header .right:hover{
+    color:rgb(47, 78, 255);
+}
+header .right a {
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+}
+ header .right a:hover{
+    color:black;
+
+ }
+
+.dn{
+    background-color: white;
+    border-radius: 10px;
+    color:red;
+    background-size: 50px;
+    height:50px;
+    font-size: 20px ;
+}
+.dn:hover{
+    color:green;
+}
+
+main article{
+    background-color: indianred;
+}
+main .container1{
+    display:flex;
+    background-color: transparent;
+
+}
+main .container1 div{
+    border:2px #ccc solid;
+    padding:10px;
+}
+main .im3{
+    display:flex;
+}
+#hire{
+    background-color:white;
+    font-size: 20px;
+    color:tomato;
+}
+#hire:hover{
+    color:green;
+}
+footer{
+    background-color: indianred;
+}
+footer .right{
+    position:absolute;
+    right:34px;
+    display:inline-block;
+}
+footer .right a{
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+
+}
+footer .right a:hover{
+    color:black;
+}
